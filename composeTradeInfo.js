@@ -29,9 +29,6 @@ const hollandTradeAdditional = 'Дата окончания будет изве�
  * @param {Object} trade 
  * @param {Object} config
  * @return {Object}
- * 
- * Дважды подходил к этой функции, чтобы упростить, 
- * не выходит :–(
  */
 const composeTradeInfo = (type='organizator', trade={}, config={}) => {
   const {
